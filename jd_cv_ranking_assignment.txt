@@ -1,0 +1,34 @@
+Given jobs and candidates data with the fields mentioned below, create a recommendation system that categorizes a given set of candidates across the job pool. For training the model, you have to extrapolate the provided sample data.
+
+Job Fields (in "Job_Pool" sheet)
+- Designation
+- Required Skills
+- Minimum Experience in Months
+- Maximum Experience in Months
+
+Candidate Data fields (in "CV_Pool" sheet)
+- Skills
+- Designation
+- Industry
+- Experience in Months
+- Institute
+- Degree
+
+Mappin between jobs and candidates (in "Job_CV_Mapping" sheet)
+- Job Id and corresponding relevant Candidate Ids
+
+Output Format:
+Print all relevant candidates for each job in their matching magnitude order after extrapolating given job and candidate pools in "dataset_sample.xls".
+
+Note:
+1. Refer to "dataset_sample.xls" for the sample dataset. Note that this is not the complete dataset, you are required to extrapolate the existing dataset to form training and testing datasets and then create a POC.
+
+2. Please note it is important that you augment your analysis with comments and a summary about how you approached the problem.
+
+3. For brownie points:
+   a. Suggest how can you modify the existing features to optimize your solution
+   b. Include neural nets in your analysis
+
+4. We have added some bias in our data and expect you to include some bias in your dataset after extrapolation
+
+5. Ranking the CVs for a job will be given additional points
