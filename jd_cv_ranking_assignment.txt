@@ -14,7 +14,7 @@ Candidate Data fields (in "CV_Pool" sheet)
 - Institute
 - Degree
 
-Mappin between jobs and candidates (in "Job_CV_Mapping" sheet)
+Mapping between jobs and candidates (in "Job_CV_Mapping" sheet)
 - Job Id and corresponding relevant Candidate Ids
 
 Output Format:
